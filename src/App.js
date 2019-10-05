@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Home, About, Contact, Navigation } from './components';
 
-const App = () => (
+const App = () => {
   <div>
     <Navigation />
   </div>
@@ -10,6 +10,6 @@ const App = () => (
     <Route path = "/about" component = {About} />
     <Route path = "/contact" component = {Contact} />
 
-)
+}
 
 export default App;
