@@ -1,17 +1,4 @@
-import React from "react";
-import ReactDom from "react-dom";
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Navigation from './Navigation';
-import { BrowserRouter as Router } from 'react-router-dom';
-import App from '../App'
-
-ReactDom.render(
-    <Router>
-        <App />
-    </Router>,
-    document.getElementById("root")
-)
-
-export { Home, About, Contact, Navigation };
+export { default as Navigation } from './Navigation'
+export { default as About } from './About'
+export { default as Home } from './Home'
+export { default as Contact } from './Contact'
