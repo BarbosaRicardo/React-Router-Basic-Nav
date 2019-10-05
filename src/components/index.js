@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDom from "react-dom";
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
